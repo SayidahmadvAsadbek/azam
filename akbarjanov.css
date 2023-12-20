@@ -1,0 +1,123 @@
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: rgb(9, 9, 9);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #050505;
+    color: #fbf8f8;
+    
+
+   
+}
+
+#packages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em;
+    background-color: rgb(116, 72, 182);
+}
+
+.package {
+    background-color: #bba9f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    margin: 1em;
+    width: 30%;
+    min-width: 300px;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.package:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Add more styles as needed */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #555;
+    padding: 0.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#tepa{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    text-decoration: none;
+   justify-content:right;
+}
+#Other{
+    background-color: #bba9f7;
+}
+
+
+#recommendations{
+    background-color: #bba9f7;
+}
+
+
+#purchases{
+    background-color: #bba9f7; 
+}
+
+
+#publications{
+    background-color: #bba9f7;
+}
+
+
+#meeting{
+    background-color: #bba9f7;
+}

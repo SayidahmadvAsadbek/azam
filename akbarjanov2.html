@@ -1,0 +1,67 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debyut Album Store</title>
+    <link rel="stylesheet" href="./akbarjanov2.css">
+</head>
+<body>
+
+    <header>  
+        <h1>akbarjanov_a</h1>
+        <a id="tepa" href="./akbarjanov4.html">Home</a>
+        <a id="tepa" href="./akbarjanov.html">Packages</a>
+        <a id="tepa" href="./akbarjanov1.html">Shop</a>
+        <a target="_parent" id="tepa" href="./akbarjanov2.html">Exchange</a>
+        
+    </header>
+
+<section id="image-grid">
+    <div class="image-item">
+        <img src="./404f8e7947a31bc1e4bc9c7f09305c8f.jpg" alt="Image 1">
+    </div>
+    <div class="image-item">
+        <img src="./9662efab555ca8bc2d25a971e8ebd914.jpg" alt="Image 2">
+    </div>
+    <div class="image-item">
+        <img src="./affa34aeb29d5fbf51014ec36898256e.jpg" alt="Image 3">
+    </div>
+    <div class="image-item">
+        <img src="./ef4ee0080ea85070b4538d6e7a4c5283.jpg" alt="Image 4">
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<section id="album-purchase">
+    <h2>Album Purchase</h2>
+    <form id="purchase-form">
+        <label for="album-select">Select Album:</label>
+        <select id="album-select" required>
+            <!-- Options will be dynamically added using JavaScript -->
+        </select>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="1" value="1" required>
+
+        <button type="button" onclick="addToCart()">Add to Cart</button>
+    </form>
+
+    <!-- <div id="cart">
+        <h3>Shopping Cart</h3>
+        <ul id="cart-list"></ul>
+        <button type="button" onclick="purchase()">Purchase</button>
+    </div> -->
+</section>
+
+
+</body>
+</html>
